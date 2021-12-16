@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100!important;0,300!important;0,400!important;0,500!important;0,700!important;0,900!important;1,100!important;1,300!important;1,400!important;1,500!important;1,700!important;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100!important;0,300!important;0,400!important;0,500!important;0,700!important;0,900!important;1,100!important;1,300!important;1,400!important;1,500!important;1,700!important;1,900&display=swap);
+
+:root {
+    --blue: #61AFEF!important;
+    --white: #ABB2BF!important;
+    --black: #2b2c34!important;
+    --red: #E06C75!important;
+    --purple: #C678DD!important;
+    --emerald: #56B6C2!important;
+    --yellow: #E5C07B!important;
+    --green: #98c379!important;
+    --grey: #454c59!important;
+  }
+
+  :root {
+      /*ic*/
+    --ic-brand-primary-darkened-5: var(--grey)!important;
+    --ic-brand-primary-darkened-10: var(--grey)!important; 
+    --ic-brand-primary-darkened-15: var(--grey)!important;
+    --ic-brand-primary-lightened-5: var(--grey)!important;
+    --ic-brand-primary-lightened-10: var(--grey)!important;
+    --ic-brand-primary-lightened-15: var(--grey)!important;
+    --ic-brand-button--primary-bgd-darkened-5: var(--grey)!important;
+    --ic-brand-button--primary-bgd-darkened-15: var(--grey)!important;
+    --ic-brand-button--secondary-bgd-darkened-5: var(--black)!important;
+    --ic-brand-button--secondary-bgd-darkened-15: var(--black)!important;
+    --ic-brand-font-color-dark-lightened-15: var(--grey)!important;
+    --ic-brand-font-color-dark-lightened-30: var(--grey)!important;
+    --ic-link-color-darkened-10: var(--blue)!important;
+    --ic-link-color-lightened-10: var(--emerald)!important;
+    --ic-brand-primary: var(--grey)!important;
+    --ic-brand-font-color-dark: var(--black)!important;
+    --ic-link-color: var(--blue)!important;
+    --ic-brand-button--primary-bgd: var(--blue)!important;
+    --ic-brand-button--primary-text: var(--grey)!important;
+    --ic-brand-button--secondary-bgd: var(--black)!important;
+    --ic-brand-button--secondary-text: var(--black)!important;
+    --ic-brand-global-nav-bgd: var(--black)!important;
+    --ic-brand-global-nav-ic-icon-svg-fill: var(--blue)!important;
+    --ic-brand-global-nav-ic-icon-svg-fill--active: var(--green)!important;
+    --ic-brand-global-nav-menu-item__text-color: var(--white)!important;
+    --ic-brand-global-nav-menu-item__text-color--active: var(--ic-link-color)!important;
+    --ic-brand-global-nav-avatar-border: var(--white)!important;
+    --ic-brand-global-nav-menu-item__badge-bgd: var(--ic-brand-primary)!important;
+    --ic-brand-global-nav-menu-item__badge-text: var(--white)!important;
+    --ic-brand-global-nav-logo-bgd: var(--white)!important;
+    --ic-brand-right-sidebar-logo: !important;
+    --ic-brand-Login-body-bgd-color: var(--black)!important;
+    --ic-brand-Login-body-bgd-shadow-color: var(--black)!important;
+    --ic-brand-Login-Content-label-text-color: var(--black)!important;
+    --ic-brand-Login-Content-password-text-color: var(--white)!important;
+    --ic-brand-Login-footer-link-color: var(--white)!important;
+    --ic-brand-Login-footer-link-color-hover: var(--white)!important;
+    --ic-brand-Login-instructure-logo: var(--white)!important;
+
+    /**/
+    --fbyHH-fontFamily: "Fira code"!important;
+    --fbyHH-color: var(--blue)!important;
+    --fbyHH-focusOutlineColor: var(--blue)!important;
+    --fbyHH-focusOutlineStyle: solid;
+    --fbyHH-hoverColor: var(--emerald)!important;
+    --fbyHH-colorInverse: var(--black)!important;
+    --fbyHH-focusInverseOutlineColor: var(--black)!important;
+    --fbyHH-focusInverseIconOutlineColor: var(--black)!important;
+
+    /**/
+    --fLzZc-background: var(--black)!important;
+    --fLzZc-Color: var(--white)!important;
+    --fLzZc-borderColor: var(--white)!important;
+
+    /**/
+    --cRLeC-color: var(--black)!important;
+
+    /**/
+    --enRcg-primaryColor: var(--blue)!important;
+    --enRcg-secondaryColor: var(--green)!important;
+
+    /**/
+    --eHiXd-linkColor: var(--ic-link-color)!important;
+    --eHiXd-linkFocusBorderColor: var(--ic-link-color)!important;
+    --eHiXd-linkHoverColor: var(--ic-link-color)!important;
+
+    /**/
+    --fOyUs-fontFamily: "Fira code"!important;
+    --fOyUs-color: var(--red)!important;
+    
+    /*TODO links*/
+    --fOyUs-fontFamily: "Fira code"!important;
+    --fOyUs-color: var(--blue)!important;
+    /* X exit button*/
+    --fQfxa-secondaryGhostColor: var(--red)!important;
+}
+
+div{
+    font-family: "Fira code"!important;
+    color: var(--white)!important;
+    background-color: var(--black)!important;
+}
+
+/*misc*/
+.btn, .Button, .ui-button {
+    background-color: var(--black)!important;
+    color: var(--white)!important;
+    border: 1px solid;
+    color: var(--white)!important;
+}
+.recent_activity .image-block-image i:before {
+    color: var(--green)!important;
+}
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background-color: var(--black)!important;
+}
+
+.list-view a.active {
+    border-left: 2px solid var(--green)!important;
+    color: var(--green)!important;
+}
+a {
+    background-color: var(--black)!important;
+}
+.ig-list .ig-row a.ig-title {
+    color: var(--blue)!important;
+}
+
+#breadcrumbs>ul>li+li:last-of-type a {
+    color: var(--blue)!important;
+}
+
+.ig-header .name {
+    color: var(--red)!important;
+    text-shadow: none !important;
+}
+
+#breadcrumbs>ul>li {
+    background-color: var(--black)!important;
+}
+body{
+    color: var(--blue)!important;
+}
