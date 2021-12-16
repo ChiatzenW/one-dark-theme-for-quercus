@@ -4,6 +4,6 @@ A chorme extemsion that injects a one-dark like colour scheme on University of T
 ## Chorme web store url:
 currently under review
 ## Screenshots
-![](images/SharedScreenhot1.jpg)
-![](images/SharedScreenhot2.jpg)
-![](images/SharedScreenhot3.jpg)
+![](images/SharedScreenshot1.jpg)
+![](images/SharedScreenshot2.jpg)
+![](images/SharedScreenshot3.jpg)
