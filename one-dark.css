@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100!important;0,300!important;0,400!important;0,500!important;0,700!important;0,900!important;1,100!important;1,300!important;1,400!important;1,500!important;1,700!important;1,900&display=swap);
 
-@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100!important;0,300!important;0,400!important;0,500!important;0,700!important;0,900!important;1,100!important;1,300!important;1,400!important;1,500!important;1,700!important;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
 :root {
     --blue: #61AFEF!important;
@@ -91,6 +90,8 @@
     --fOyUs-color: var(--blue)!important;
     /* X exit button*/
     --fQfxa-secondaryGhostColor: var(--red)!important;
+    /*right side descriptions*/
+    --ctrLD-color: var(--green)!important;
 }
 
 div{
@@ -138,4 +139,7 @@ a {
 }
 body{
     color: var(--blue)!important;
+}
+#right-side .right-side-list li em, #right-side .right-side-list li p {
+    color: var(--green)!important;
 }

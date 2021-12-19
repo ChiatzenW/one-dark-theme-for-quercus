@@ -1,12 +1,10 @@
 {
     "name": "One dark theme for Quercus",
-    "description": "Overrides the CSS file on UofT's Quercus with a one dark themed one.",
-    "version": "1.0",
+    "description": "a one dark like theme for University of Toronto's student website Quercus.",
+    "version": "1.1",
     "icons": { "128": "/images/128.png" },
     "manifest_version": 3,
       "permissions":  [
-        "activeTab",
-        "scripting"
       ],
       "action": {
         "default_icon": {
